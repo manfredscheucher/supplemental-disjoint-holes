@@ -10,7 +10,7 @@ Given a set of points $S \subseteq \mathbb{R}^2$, a subset $X \subseteq S$, $|X|
 
 We provide a python program "h55.py" to formulate a SAT instance to verify that every set of 17 points contains two disjoint 5-holes. To execute the program, run
 
-python h55.py 17
+```python h55.py 17```
 
 The SAT instance is written to a cnf-file, which then can be solved using a SAT solver such as [glucose](http://www.labri.fr/perso/lsimon/glucose/) or [picosat](http://fmv.jku.at/picosat/).  
 (The programs for interior-disjoint 5-holes and 6-gons are analogously.)
